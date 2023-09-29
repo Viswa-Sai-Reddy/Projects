@@ -1,0 +1,76 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#9D44C0,#EC53B0);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+    
+}
+#header{
+    display: flex;
+}
+#header,.notesContainer{
+    margin: 0 25%;
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 600;
+    user-select: none;
+    color: #31056f;
+    margin-right: 150px;
+}
+.container h1 img{
+    width: 90px;
+}
+.container button img{
+    width: 30px;
+    margin-right: 8px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#4D2DB7,#0E21A0);
+    color: #fff;
+    padding:15px 25px;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    margin: 25px;
+    user-select: none;
+    cursor: pointer;
+}
+.inputBox{
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    min-height: 200px;
+    background: #9400FF;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    box-shadow: 5px 3px black;
+    font-size: 25px;
+    border-radius: 0 20px 0 20px;
+}
+.inputBox img{
+     width: 25px;
+     position: absolute;
+     right: 10px;
+     bottom: 10px;
+     cursor: pointer;
+}
+.inputBox img:hover{
+    transform: scale(1.25);
+}
