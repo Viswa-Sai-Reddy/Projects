@@ -1,7 +1,8 @@
 # Projects
 * Analog  Clock
 * Image Gallery App
-* Food Menu App
+* Menu App
+* NotePad App
 * To-Do List App
 
 ## Technologies Used
