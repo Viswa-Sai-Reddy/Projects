@@ -1,5 +1,6 @@
 # Projects
 * Analog  Clock
+* Counter App
 * Image Gallery App
 * Menu App
 * NotePad App
@@ -10,3 +11,4 @@
 * HTML
 * CSS
 * JavaScript
+* React
